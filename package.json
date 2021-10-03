@@ -1,22 +1,14 @@
 {
-  "name": "@semantic-release/apm-config",
-  "description": "semantic-release shareable config to publish Atom packages with apm",
-  "version": "0.0.0-development",
-  "author": "Pierre Vanduynslager (https://github.com/pvdlg)",
-  "bugs": {
-    "url": "https://github.com/semantic-release/apm-config/issues"
-  },
-  "contributors": [
-    "Stephan Bönnemann <stephan@boennemann.me> (http://boennemann.me)",
-    "Gregor Martynus (https://twitter.com/gr2m)"
-  ],
+  "name": "@geprog/semantic-release-config",
+  "version": "0.0.0-semantic-release",
+  "description": "semantic-release shareable config to publish NPM packages at Geprog",
+  "author": "Geprog GmbH (https://geprog.com/)",
+  "license": "MIT",
   "dependencies": {
-    "@semantic-release/apm": "^4.0.0",
-    "@semantic-release/changelog": "^6.0.0",
-    "@semantic-release/commit-analyzer": "^9.0.0",
-    "@semantic-release/git": "^10.0.0",
-    "@semantic-release/github": "^8.0.0",
-    "@semantic-release/release-notes-generator": "^10.0.0"
+    "@semantic-release/commit-analyzer": "9.0.1",
+    "@semantic-release/github": "8.0.1",
+    "@semantic-release/npm": "8.0.0",
+    "@semantic-release/release-notes-generator": "10.0.2"
   },
   "devDependencies": {
     "semantic-release": "18.0.0",
@@ -28,18 +20,6 @@
   "files": [
     "index.js"
   ],
-  "homepage": "https://github.com/semantic-release/apm-config#readme",
-  "keywords": [
-    "apm",
-    "atom",
-    "atom-packages",
-    "conventional-changelog",
-    "release",
-    "semantic-release",
-    "semantic-release-config",
-    "version"
-  ],
-  "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
     "semantic-release": ">=18.0.0"
@@ -53,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/semantic-release/apm-config.git"
+    "url": "https://github.com/geprog/semantic-release-config.git"
   },
   "scripts": {
     "semantic-release": "semantic-release",
